@@ -7,6 +7,12 @@
 //
 //
 
+/*
+ * $ gcc zombie.c -o zombie
+ * $ ./zombie
+ * $ ps -eo stat,args,pid,ppid,user  | grep -v grep | grep Z
+ */
+
 
 //stdc
 #include <stdio.h>
